@@ -8,7 +8,7 @@ resources:
 images:
 - name: 905343638195.dkr.ecr.us-east-1.amazonaws.com/backend
   newName: 905343638195.dkr.ecr.us-east-1.amazonaws.com/backend
-  newTag: 1c9abdb8d0bc3744bd18e737f6864d75c42ad0f1
+  newTag: 94467ab2d63b08150953a0864716d3716668cfa7
 - name: 905343638195.dkr.ecr.us-east-1.amazonaws.com/frontend
   newName: 905343638195.dkr.ecr.us-east-1.amazonaws.com/frontend
   newTag: v1.0
