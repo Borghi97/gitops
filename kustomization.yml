@@ -1,14 +1,16 @@
 resources:
-  - backend/deployment.yml
-  - backend/service.yml
-  - frontend/deployment.yml
-  - frontend/service.yml
+- backend/deployment.yml
+- backend/service.yml
+- frontend/deployment.yml
+- frontend/service.yml
+
 
 images:
-  - name: 905343638195.dkr.ecr.us-east-1.amazonaws.com/backend
-    newName: 905343638195.dkr.ecr.us-east-1.amazonaws.com/backend
-    newTag: v1.0
-
-  - name: 905343638195.dkr.ecr.us-east-1.amazonaws.com/frontend
-    newName: 905343638195.dkr.ecr.us-east-1.amazonaws.com/frontend
-    newTag: v1.0
+- name: 905343638195.dkr.ecr.us-east-1.amazonaws.com/backend
+  newName: 905343638195.dkr.ecr.us-east-1.amazonaws.com/backend
+  newTag: f6d9b68eb1762724c18b7a3e79a5858dbd2b99ad
+- name: 905343638195.dkr.ecr.us-east-1.amazonaws.com/frontend
+  newName: 905343638195.dkr.ecr.us-east-1.amazonaws.com/frontend
+  newTag: v1.0
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
